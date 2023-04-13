@@ -1,0 +1,108 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.nav-list .left-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.nav-list .center-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+    
+}
+
+.nav-list .end-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+ .nav-list .center-menu .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    width: 20rem;
+}
+
+ .input-search {
+    width: 100%;
+    height: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 0  0.5rem;
+    outline: none;
+}
+
+.btn-search {
+    width: 2rem;
+    height: 2rem;
+    border-left: 1px solid #ccc;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: -2rem;
+}
+
+ .sign-in {
+
+    background-color: #fff;
+    color: #065fd4;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  
+   
+}
+
+.fa-circle-user {
+    color: #065fd4;
+    margin-right: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
