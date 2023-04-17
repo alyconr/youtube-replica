@@ -433,16 +433,14 @@ p {
 
 
 @media only screen and (max-width: 768px) {
-    .nav-list .center-menu .form {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        width: 10rem;
-
-
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
     }
 
     .container {
@@ -452,7 +450,34 @@ p {
         list-style: none;
         margin: 1rem 1rem;
         padding: 0;
+       
 
+    }
+
+    .main iframe   {
+        width: 600px;
+        height: 300px;
+        border: none;
+        border-radius: 0.5rem;
+        margin: 0;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 1rem;
+        color: white;
+        padding: 0.5rem;
+        width: 89%;
+        
+        border-radius: 0.5rem;
+        background-color: #e1dbdb;
     }
 
     .main-video {
