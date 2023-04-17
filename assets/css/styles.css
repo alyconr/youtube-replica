@@ -35,55 +35,33 @@
 
 
 
-.nav-list .left-menu {
+
+ .left-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
     gap: 1rem;
 }
 
-.nav-list .left-menu {
+ .center-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 1rem;
-}
-
-.nav-list .center-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
     gap: 1rem;
 
 }
 
-.nav-list .end-menu {
+ .end-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
     gap: 1rem;
 }
 
-.nav-list .center-menu .form {
+ .form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
     width: 20rem;
 }
 
@@ -277,22 +255,11 @@ p {
     padding: 0;
 }
 
-.cards {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    list-style: none;
-    margin-right: 4rem;
-    padding: 0;
 
-}
 .video-menu-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
     gap: 1rem;
     color: white;
     padding: 0.5rem;
@@ -301,8 +268,6 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    list-style: none;
-    margin: 0;
     padding: 0.2rem;
     gap: 1rem;
 
