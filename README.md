@@ -2,7 +2,7 @@
  
  💻
  
- The porpose of this excecise is to complete a Microverse prebootcamp challenge  which consist on a youtube page replica using only html and pure css. 
+ The porpose of this excecise is to complete a Microverse prebootcamp challenge  which consist on a youtube page replica using only html, pure css and mobile first methodology. 
  
  💡 I used Git gub pages to host the application:
 
